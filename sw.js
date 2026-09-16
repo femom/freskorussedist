@@ -1,1 +1,31 @@
-if(!self.define){let e,i={};const n=(n,r)=>(n=new URL(n+".js",r).href,i[n]||new Promise(i=>{if("document"in self){const e=document.createElement("script");e.src=n,e.onload=i,document.head.appendChild(e)}else e=n,importScripts(n),i()}).then(()=>{let e=i[n];if(!e)throw new Error(`Module ${n} didn’t register its module`);return e}));self.define=(r,s)=>{const c=e||("document"in self?document.currentScript.src:"")||location.href;if(i[c])return;let o={};const a=e=>n(e,c),t={module:{uri:c},exports:o,require:a};i[c]=Promise.all(r.map(e=>t[e]||a(e))).then(e=>(s(...e),o))}}define(["./workbox-9c191d2f"],function(e){"use strict";self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"registerSW.js",revision:"402b66900e731ca748771b6fc5e7a068"},{url:"index.html",revision:"c8a2877978a9ba69809fd88c6f57cf95"},{url:"icon-mask-512.png",revision:"ca8f10ea3cfb51ac254a02821a0ca05a"},{url:"icon-512.png",revision:"0640bf68a5d925e8d2d3483ab4cadce8"},{url:"icon-192.png",revision:"b3b306658144fa00218a8dd217561279"},{url:"assets/index-Bfx-wb23.css",revision:null},{url:"assets/index-BSrMhmxr.js",revision:null},{url:"icon-192.png",revision:"b3b306658144fa00218a8dd217561279"},{url:"icon-512.png",revision:"0640bf68a5d925e8d2d3483ab4cadce8"},{url:"icon-mask-512.png",revision:"ca8f10ea3cfb51ac254a02821a0ca05a"},{url:"manifest.webmanifest",revision:"1492b1cf86b9f46fdf8c1e559d970439"}],{}),e.cleanupOutdatedCaches(),e.registerRoute(new e.NavigationRoute(e.createHandlerBoundToURL("index.html")))});
+if(!self.define){let e,i={};const n=(n,r)=>(n=new URL(n+".js",r).href,i[n]||new Promise(i=>{if("document"in self){const e=document.createElement("script");e.src=n,e.onload=i,document.head.appendChild(e)}else e=n,importScripts(n),i()}).then(()=>{let e=i[n];if(!e)throw new Error(`Module ${n} didn’t register its module`);return e}));self.define=(r,s)=>{const c=e||("document"in self?document.currentScript.src:"")||location.href;if(i[c])return;let o={};const a=e=>n(e,c),t={module:{uri:c},exports:o,require:a};i[c]=Promise.all(r.map(e=>t[e]||a(e))).then(e=>(s(...e),o))}}define(["./workbox-9c191d2f"],function(e){"use strict";(self.skipWaiting(),
+  e.clientsClaim(),
+  e.precacheAndRoute(
+    [
+      { url: "registerSW.js", revision: "402b66900e731ca748771b6fc5e7a068" },
+      { url: "index.html", revision: "c8a2877978a9ba69809fd88c6f57cf95-v2" },
+      {
+        url: "icon-mask-512.png",
+        revision: "ca8f10ea3cfb51ac254a02821a0ca05a",
+      },
+      { url: "icon-512.png", revision: "0640bf68a5d925e8d2d3483ab4cadce8" },
+      { url: "icon-192.png", revision: "b3b306658144fa00218a8dd217561279" },
+      { url: "assets/index-Bc_4NN9Z.js", revision: null },
+      { url: "assets/index-BuKk-sjw.css", revision: null },
+      { url: "assets/index-CnDIXh8o.css", revision: null },
+      { url: "assets/index-Cu8hqm_V.js", revision: null },
+      { url: "assets/index-Cy78iR82.js", revision: null },
+      { url: "assets/index-r4eYOIKI.css", revision: null },
+      { url: "assets/index-Bfx-wb23.css", revision: null },
+      { url: "assets/index-BSrMhmxr.js", revision: null },
+      {
+        url: "manifest.webmanifest",
+        revision: "1492b1cf86b9f46fdf8c1e559d970439",
+      },
+    ],
+    {},
+  ),
+  e.cleanupOutdatedCaches(),
+  e.registerRoute(
+    new e.NavigationRoute(e.createHandlerBoundToURL("index.html")),
+  ));});
