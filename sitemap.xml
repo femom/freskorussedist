@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://freskorussedist.vercel.app/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://freskorusse.vercel.app/</loc>
+  </url>
+  <url>
+    <loc>https://freskorusse.vercel.app/guides/alphabet-cyrillique.html</loc>
+  </url>
+  <url>
+    <loc>https://freskorusse.vercel.app/guides/cas-russes.html</loc>
+  </url>
+  <url>
+    <loc>https://freskorusse.vercel.app/guides/conjugaison-russe.html</loc>
   </url>
 </urlset>
